@@ -1,0 +1,248 @@
+.rk-btn{
+    border:1px solid #fff;
+    padding:10px 15px;
+    text-align:center;
+    width:150px;
+    border-radius:10px;
+    background-color:#C90110;
+    font-size:15px;
+    color:#fff;
+    font-weight:600;
+  }
+  
+  #header1{
+    padding:0px 0px 20px 0px;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    transition:all 0.5s;
+    z-index:997
+  }
+
+  .header-top{
+    padding:0px;
+    background-color: #fff;
+  }
+
+  .banner-area1{
+    margin-top:160px;
+    padding:0px 15px;
+  }
+
+  .service-area{
+    margin-top:80px;
+  }
+
+  #clip-header{
+    background-color: #C90110;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+    width: 100%;
+      
+  }
+  #header1{padding:0;}
+  .nav-menu a{
+    color:#000;
+  }
+  #mob-control{
+    display:none;
+  }
+  .top-text{
+    color:#fff;
+    font-weight:600;
+  }
+  .img-width{
+    width:100%;
+  }
+  .banner-section{
+    margin-top:110px;
+  }
+  .nav-menu ul{
+    top: 43%;
+  }
+  .header-top ul li{
+    display:block;
+  }
+
+
+  /*--------------- Mobile Navbar -----------------------*/
+
+  @media screen and (max-width:960px){
+    .search-wrap{
+        flex-direction:column-reverse;
+    }
+    #top-btn{
+        display:none;
+    }
+    
+    #menu-active, #menu{
+      position: absolute;
+      top: 46px;
+      right: 0;
+      width: 256px;
+      background-color: #C90110;
+      height: 100vh;
+      transition: 0.3s ease-in-out;
+    }
+    #menu{
+      right: -256px;
+    }
+    .header-top ul li{
+      display:block;
+    }
+    .nav-menu>li{
+      float:none;
+    }
+    i{
+      color:#fff;
+      font-size:24px;
+    }
+    #mob-control{
+      display:block;
+    }
+
+    #header1{padding-bottom:0px;}
+
+    #header1 .flex-direction{
+      flex-direction: column-reverse;
+    }
+    #clip-header{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .mob-p{padding:0px;}
+
+    .banner-section{
+      margin-top:159px;
+    }
+    .nav-menu a{
+      padding-bottom:8px;
+      color: #fff;
+    }
+  }
+  .nav-menu a{
+    padding-bottom:12px;
+  }
+
+/*------------------- Footer Section ------------------------*/
+
+  .footer-bg{
+    background-color:#eee;
+  }
+  .footer-info{
+    color:#222;
+    font-size:16px;
+    margin-top:10px;
+  }
+  .footer-info i{
+    color:#C90110;
+  }
+  .footer-bottom{
+    padding:30px 15px;
+    background-color:#484747;
+    color:#fff;
+    text-align:center;
+  }
+  .footer-bottom p{
+    margin-bottom:0px;
+  }
+
+/*------------------------ Home page -------------------- */
+
+  .card{
+    padding:15px;
+    border-radius:8px;
+    background-color: #ddd;
+    text-align:center;
+  }
+  .blog-bdr img{
+    border: 8px solid #C90110;
+    border-radius:8px;
+  }
+  .contact-form{
+    padding:15px;
+  }
+  .contact-form form label{
+    color:#fff;
+  }
+  .text-justify{
+    text-align: justify;
+  }
+  .contact-bg{
+    /* background-image:url('../img/contact-bg.png'); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*----------------------- About Page ---------------- */
+
+  .about-bg{
+    /* background-image: url('../img/ab-bg.png'); */
+    background-position: center;
+    background-size: cover;
+  }
+  .right-bg{
+    background-color: #C90110;
+    opacity:0.7;
+    color:#fff;
+    padding: 50px 20px;
+  }
+  .right-bg h1{
+    color: #fff;
+  }
+
+  .blog-card{
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+  }
+  .contact-card{
+    text-align:center;
+    padding:15px;
+    background-color:#ddd;
+    width:100%;
+    height:200px
+  }
+  .justify-content-space-between{
+    justify-content:space-between;
+  }
+  .justify-content-space-around{
+    justify-content:space-around;
+  }
+  .contact-form-bg{
+    background-color:#C90110;
+    padding:30px;
+    border-radius:5px;
+  }
+  .contact-form-bg form label{
+    color:#fff;
+  }
+  #product-form input, #product-form textarea{
+    border-radius:1px;
+  }
+  #product-form label{
+    color:#000;
+  }
+
+  .icon-bg{
+    background-color:#C90110;
+    padding:12px;
+    width:80px;
+    margin:auto;
+  }
+  .product-bg{
+    padding:15px;
+    border: 1px solid #ccc;
+  }
+  #product-bottom{
+    margin-top: -120px;
+    border: 10px solid #ddd;
+  }
+
+  .product-clip-bg{
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    padding-top:100px;
+    padding-bottom:50px;
+    width:100%;
+    height:100%;
+    background-color: #ddd;
+  }
